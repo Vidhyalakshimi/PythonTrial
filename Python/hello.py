@@ -1,5 +1,10 @@
 
-N = int(input("Enter number of elements: "))
-N = N + 1
-N = N + 1
-print ("Hello World!!" + str(N) )
+N = int(input("Enter N: "))
+
+num = []
+
+for i in range(N):
+	num.append(int(input()))
+
+print ("Sum: " + str(sum(num)))
+print ("Max: " + str(max(num)))
